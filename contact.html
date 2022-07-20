@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <p>J Sam <br>
+      Mobile:00000000 <br>
+      Address:123 Fake Street, City, Island, 0000 <br>
+      Email: fake@email.com
+    </p>
+    <hr>
+    <form class="" action="mailto:sophiesmokie@gmail.com" method="post" enctype="text/plain"> <!--The action attribute is basically what should happen when user clicks submit-->
+      <!--Method post means it will send the details from the form to the email--->
+      <!--enctype="text/plain" - This will display email in plain text without weird numbers and codes in it-->
+      <label>Your Name</label>
+      <input type="text" name="yourName" value=""><br> <!--The name attributes identifies the data that is in the inputs-->
+      <!--<input type="color" name="" value=""> <br><!--creates a colour picker on the page-->
+        <!-- <label for="">Do you want to sign up to the email list?</label>
+      <input type="checkbox" name="" value=""> <!--creates a checkbox on the page-->
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""><br>
+      <!--Ignore this note - In order to get them to be able to enter their email we will add an attribute called text area-->
+      <label>Your Message</label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br> <!--<textarea has two attributes that are really important
+        the number of rows and column, rows determine how tall the textarea should be
+        and columns determine how wide the textarea should be-->
+      <!--<label>password</label>
+      <input type="password" name="" value="">-->
+      <input type="submit" name="submit"> <!--This creates a submit button-->
+    </form>
+  </body>
+</html>
